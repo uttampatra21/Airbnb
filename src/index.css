@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+#tomenou {
+  /* background: rgba(41, 41, 41, .7); */
+  border-radius: 18px;
+  padding: 8px 10px;
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto;
+  backdrop-filter: blur(2px);
+}
+
+#button {
+  display: inline-block;
+  width: 133px;
+  padding: 16px 0;
+  text-align: center;
+  background: rgba(41, 41, 41, 0.7);
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#hotels-name:nth-child(1) {
+  border-bottom: 1px solid rgb(90, 89, 89);
+}
+
+#hotels-name li:nth-child(1),
+#hotels-name li:nth-child(2),
+#hotels-name li:nth-child(3),
+#hotels-name li:nth-child(4) {
+  border-right: 1px solid rgb(90, 89, 89);
+}
+
+#hotels-name li {
+  padding: 10px;
+}
+
+#hotels-name li img {
+  width: 200px;
+}
+
+#service {
+  background-image: url("https://www.welldesigned.gr/wp-content/themes/welldesign/images/thegrad.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.servicedetails {
+  width: 32%;
+  display: inline-block;
+  border: 1px solid #4B4B4B;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin-right: 5px;
+  margin-bottom: 17px;
+  padding: 16px 0;
+  transition: all 0.9s;
+  -moz-transition: all 0.9s;
+  -webkit-transition: all 0.9s;
+  -o-transition: all 0.9s;
+}
+
+.servicedetails:hover {
+  border: 1px solid #fff;
+}
+
+.sendenq {
+  background: #fff!important;
+  font-weight: 700!important;
+  font-size: 14px!important;
+  line-height: 14px!important;
+  text-align: center!important;
+  display: block!important;
+  width: 300px!important;
+  color: #000!important;
+  padding: 20px 0px!important;
+  border: 0!important;
+  border-radius: 12px!important;
+  margin: 30px auto 0 auto!important;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+#concepts-studies {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}

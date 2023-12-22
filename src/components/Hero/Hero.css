@@ -1,0 +1,13 @@
+#hero {
+  height: 100vh;
+  background-image: url(https://www.welldesigned.gr/wp-content/uploads/2023/10/well-designed-cover-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
