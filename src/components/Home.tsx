@@ -46,7 +46,8 @@ const Home = () => {
         "Welcome to AIRIO, your premier destination for exceptional hospitality in the heart of Athens, Greece.",
     },
     {
-      image: "https://www.welldesigned.gr/wp-content/uploads/2023/10/daluz-social.jpg",
+      image:
+        "https://www.welldesigned.gr/wp-content/uploads/2023/10/daluz-social.jpg",
       overlay:
         "https://www.welldesigned.gr/wp-content/uploads/2023/10/daluz-logo-x2.png",
       title: "DALUZ",
@@ -214,6 +215,8 @@ const Home = () => {
           })}
         </div>
       </div>
+
+      
     </div>
   );
 };

@@ -2,7 +2,7 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div id="hero" className="">
-      <div className="overlay flex justify-center leading-6 items-center flex-col gap-6">
+      <div className="overlay flex justify-end p-20 leading-6 items-center flex-col gap-6">
         <h1 className="text-white leading-2 text-7xl font-medium tracking-wide">
           elevate your hoteling
         </h1>
@@ -10,7 +10,7 @@ const Hero = () => {
           TRANSFORM YOUR HOTEL OR VILLA INTO A DISTINCTIVE BRAND <br /> THAT
           CAPTURES HEARTS AND MINDS
         </p>
-        <button id="button">Send Enquiry</button>
+        <button id="" className="sendenq">Explore Hotels</button>
       </div>
     </div>
   );
